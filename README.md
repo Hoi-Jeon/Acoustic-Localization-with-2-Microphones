@@ -18,7 +18,7 @@ There are several ways of implementing beamforming and I took the simplest one, 
 
 ![BeamFormingThoery](Demo/Theory_BeamForming.png)
 
-At a given frequency, one only need to calculate a phase difference between two microphones and this phase information can be obtained from the cross-correlation of two microphone signals. 
+At a given frequency, one only need to calculate a phase difference between two microphones and this phase information can be obtained from the cross-spectrum of two microphone signals. 
 
 ![BeamFormingThoery](Demo/Equation_BeamForming.png)
 
