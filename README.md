@@ -14,10 +14,13 @@ The purpose of this hobby project is to create a GUI in Laptop, which can perfor
 
 
 ## Theory
-
+There are several ways of implementing beamforming and I took the simplest one, which uses a phase difference between two microphones. 
 
 ![BeamFormingThoery](Demo/Theory_BeamForming.png)
 
+At a given frequency, one only need to calculate a phase difference between two microphones and this phase information can be obtained from the cross-correlation of two microphone signals. 
+
+![BeamFormingThoery](Demo/Equation_BeamForming.png)
 
 ## Graphical User Interface in C#
 GUI is written in C# and its main function is to get the phase between two microphones from TI Launchpad, and to dispaly it together with an webcam image in real time.
