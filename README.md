@@ -7,13 +7,16 @@ The purpose of this hobby project is to create a GUI in Laptop, which can perfor
 - High Performance TM4C123GH6PM MCU
 - Communication with Laptop using UART Serial
 - Two 12-bit ADCs with 2 microphones [KY-037](http://sensorkit.en.joy-it.net/index.php?title=KY-037_Microphone_sensor_module_(high_sensitivity)) are used
+
 - MCU with 2 microphones and Webcam (connected to laptop) is shown below
 ![System](Demo/Picture_BeamForming.jpg)
+- One can improve the performance of system by using a [low pass filter](https://github.com/Hoi-Jeon/Live-FFT/blob/master/Analog%20Low%20Pass%20Filter/LPF_Circuit.png)
 
-One can improve the performance of system by using a [low pass filter](https://github.com/Hoi-Jeon/Live-FFT/blob/master/Analog%20Low%20Pass%20Filter/LPF_Circuit.png)
 
 ## Theory
-TODO
+
+
+![BeamFormingThoery](Demo/Theory_BeamForming.png)
 
 
 ## Graphical User Interface in C#
