@@ -1,5 +1,5 @@
 # Acoustic Localization with 2 Microphones
-The purpose of this hobby project is to create a GUI in Laptop, which can perform an acoustic localisation (i.e. detection of a noise source) with 2 microphones connected to TI Launchpad microcontroller (MCU). The animated gif below shows what this program can do.
+The purpose of this hobby project is to create a GUI in Laptop, which can perform an acoustic localisation (i.e. detection of a noise source) with 2 microphones connected to TI Launchpad microcontroller (MCU). The animated gif below shows what this program can do, while my iPhone is playing a 500 Hz sine single tone.
 
 ![BeamFormingDemo](Demo/Beamforming_500Hz.gif)
 
